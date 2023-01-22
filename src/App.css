@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h3,
+p {
+  margin: 0;
+}
+
+.App {
+  height: 100vh;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.quoteBox {
+  background-color: white;
+  border-radius: 8px;
+  padding: 3rem 2.5rem;
+  position: relative;
+  max-width: 750px;
+}
+
+.quoteBox__quote {
+  color: black;
+}
+
+.quoteBox__author {
+  color: black;
+  text-align: end;
+  margin: 10px 0;
+}
+
+.quoteBox__button {
+  border-radius: 20px;
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  border: none;
+  top: 1;
+  right: 0;
+  width: 35px;
+  aspect-ratio: 1;
+  margin-right: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.quoteBox__button:hover {
+  transform: scale(1.15);
+  opacity: 0.75;
+}
+
+.container__quote {
+  position: absolute;
+  top: 0;
+  padding: 15px 0px 0px 0px;
+}
